@@ -17,7 +17,7 @@ To maximize security in an enterprise environment, we recommend that you specify
 
 | Setting Name | Value | Description |
 | --- | --- | --- |
-| Allow the Inbox version of the Windows Subsystem for Linux | Disabled | When set to disabled, this policy disables the inbox version (optional component) of the Windows Subsystem For Linux. If this policy is disabled, only the store version of WSL can be used. |
+| Allow the Inbox version of the Windows Subsystem for Linux | Disabled | When set to disabled, this policy disables the inbox version (optional component) of the Windows Subsystem For Linux. If this policy is disabled, only the store version of WSL can be used. [Learn more about the difference between Store WSL and Inbox WSL here](https://aka.ms/wslstoreinfo) |
 | Allow WSL1 | Disabled | When set to disabled, this policy disables WSL1. When disabled, only WSL2 distributions can be used. |
 | Allow the debug shell | Disabled | When set to disabled, this policy disables the debug shell (wsl.exe --debug-shell). This policy only applies to Store WSL. |
 | Allow custom kernel configuration | Disabled | When set to disabled, this policy disables custom kernel configuration via .wslconfig (wsl2.kernel). This policy only applies to Store WSL. |
@@ -57,4 +57,4 @@ The last group of settings that end with `*UserSettingConfigurable` control acce
 | Allow custom networking configuration | When set to disabled, this policy disables custom networking configuration via .wslconfig (wsl2.networkingmode). This policy only applies to Store WSL. |
 | Allow user setting firewall configuration | When set to disabled, this policy disables firewall configuration via .wslconfig (wsl2.firewall). This policy only applies to Store WSL. |
 | Allow nested virtualization | When set to disabled, this policy disables nested virtualization configuration via .wslconfig (wsl2.nestedVirtualization). This policy only applies to Store WSL. |
-| Allow kernel debugging | When set to disabled, this policy disables kernel kernel debugging configuration via .wslconfig (wsl2.kernelDebugPort). This policy only applies to Store WSL. |
+| Allow kernel debugging | When set to disabled, this policy disables kernel debugging configuration via .wslconfig (wsl2.kernelDebugPort). This policy only applies to Store WSL. |
